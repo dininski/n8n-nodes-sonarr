@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-sonarr",
   "version": "0.1.0",
   "description": "",
   "keywords": [
@@ -37,7 +37,7 @@
       "dist/credentials/HttpBinApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
+      "dist/nodes/Sonarr/Sonarr.node.js",
       "dist/nodes/HttpBin/HttpBin.node.js"
     ]
   },
@@ -51,5 +51,8 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "@devlikeapro/n8n-openapi-node": "^0.1.4"
   }
 }
